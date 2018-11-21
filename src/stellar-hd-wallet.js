@@ -1,6 +1,6 @@
 import has from 'lodash/has'
 import bip39 from 'bip39'
-import {derivePath, getMasterKeyFromSeed, getPublicKey} from 'ed25519-hd-key'
+import {derivePath, getMasterKeyFromSeed} from '@hawkingnetwork/ed25519-hd-key-rn'
 import {Keypair} from 'stellar-base'
 
 const ENTROPY_BITS = 256 // = 24 word mnemonic

@@ -1,9 +1,9 @@
 {
   "name": "stellar-hd-wallet",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Key derivation for Stellar (SEP-0005)",
   "author": "Chris Hatch",
-  "repository": "chatch/stellar-hd-wallet",
+  "repository": "hawkingnetwork/stellar-hd-wallet-rn",
   "license": "Apache-2.0",
   "main": "lib/stellar-hd-wallet.js",
   "files": [
@@ -24,8 +24,8 @@
     "keys"
   ],
   "dependencies": {
+    "@hawkingnetwork/ed25519-hd-key-rn": "^1.0.1",
     "bip39": "^2.5.0",
-    "ed25519-hd-key": "https://github.com/hawkingnetwork/ed25519-hd-key.git#react-native",
     "lodash": "4.17.10",
     "stellar-base": "^0.8.2"
   },

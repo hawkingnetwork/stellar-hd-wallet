@@ -24,9 +24,9 @@
     "keys"
   ],
   "dependencies": {
-    "bip39": "^2.5.0",
-    "ed25519-hd-key": "https://github.com/hawkingnetwork/ed25519-hd-key.git#react-native",
+    "ed25519-hd-key": "https://github.com/hawkingnetwork/ed25519-hd-key.git",
     "lodash": "4.17.10",
+    "react-native-bip39": "^2.3.0",
     "stellar-base": "^0.8.2"
   },
   "devDependencies": {

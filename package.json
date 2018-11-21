@@ -1,9 +1,9 @@
 {
-  "name": "stellar-hd-wallet",
+  "name": "@hawkingnetwork/stellar-hd-wallet-rn",
   "version": "1.0.0",
   "description": "Key derivation for Stellar (SEP-0005)",
   "author": "Chris Hatch",
-  "repository": "hawkingnetwork/stellar-hd-wallet-rn",
+  "repository": "hawkingnetwork/stellar-hd-wallet",
   "license": "Apache-2.0",
   "main": "lib/stellar-hd-wallet.js",
   "files": [

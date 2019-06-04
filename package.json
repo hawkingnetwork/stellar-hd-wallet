@@ -1,6 +1,6 @@
 {
   "name": "@hawkingnetwork/stellar-hd-wallet-rn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Key derivation for Stellar (SEP-0005)",
   "author": "Chris Hatch",
   "repository": "hawkingnetwork/stellar-hd-wallet",
@@ -25,15 +25,18 @@
   ],
   "dependencies": {
     "@hawkingnetwork/ed25519-hd-key-rn": "^1.0.1",
+    "add": "^2.0.6",
     "bip39": "3.0.2",
+    "inherits": "https://github.com/hawkingnetwork/inherits.git",
     "lodash": "4.17.11",
-    "stellar-base": "1.0.2"
+    "stellar-base": "1.0.2",
+    "yarn": "^1.16.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-add-module-exports": "1.0.2",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
-    "mocha": "^4.0.1"
+    "mocha": "6.1.4"
   }
 }
